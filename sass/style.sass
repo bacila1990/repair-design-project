@@ -3,6 +3,7 @@ $primary-color: #333
 
 body
 	max-width: 1440
+	margin: 0px
 
 .header, .footer
 	display: flex
@@ -10,7 +11,7 @@ body
 	margin: 0 auto
 	width: 100%
 	height: 83px
-	background-color: #131313
+	background: #131313
 	text-transform: uppercase
 
 
@@ -37,7 +38,7 @@ body
 			text-align: center
 			text-decoration: none
 
-.active 			
+.active
 
 .tel
 	margin-top: 37px
@@ -61,11 +62,401 @@ body
 	border: none
 	border-radius: 2px
 
+// repairs
 
 .repairs
-	white: 100%
+	display: flex
 	height: 707px
+
+.instagram
+	width: 5%
+	background: #131313
+
+.instagram_link
+	display: block
+	width: 100%
+	margin-top: 284px
+	text-transform: uppercase
+	text-decoration: none
+	color: #E3B873
+	transform: rotate(90deg)
+
+.offer
+	width: 100%
 	background-image: url(../img/flat.png)
+
+.offer__block
+	width: 550px
+	margin-top: 194px
+	margin-left: 60px
+
+.offer__block__headline
+	font-size: 40px
+	line-height: 53px
+	color: #FFFFFF
+	text-transform: uppercase
+
+.rostov
+	color: #E3B873
+
+.offer__block__text
+	font-size: 22px
+	line-height: 30px
+	color: #FFFFFF
+
+.offer__block__button
+	margin-top: 41px
+
+.button__calculate
+	margin-right: 20px
+	width: 207px
+	height: 51px
+	border: 0px
+	background: #E3B873
+	box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3)
+	border-radius: 2px
+	color: #FFFFFF
+
+.button__submit-application
+	width: 207px
+	height: 51px
+	border: 1px solid #FFFFFF
+	color: #FFFFFF
+	box-sizing: border-box
+	border-radius: 2px
+	background-color: rgba(0, 120, 201, 0)
+
+
+
+
+// completed-projects
+
+.completed-projects
+ margin-bottom: 60px
+
+.completed-projects__headline
+	margin: auto
+	margin-top: 75px
+	text-transform: uppercase
+	color: #E3B873
+	display: table
+	border-bottom: 2px solid #E3B873
+	line-height: 36px
+
+.container
+	display: flex
+
+.projects-info
+	margin-top: 45px
+	margin-left: 100px
+	width: 442px
+	height: 390px
+	color: #E3B873
+	text-transform: uppercase
+
+.projects-info__headline
+	font-size: 27px
+	line-height: 37px
+
+.projects-info__data__one
+	display: flex
+	margin-top: 162px
+	font-size: 18px
+	line-height: 25px
+
+.projects-info__data__two
+	display: flex
+	margin-top: 85px
+	font-size: 18px
+	line-height: 25px
+
+.projects-info__data__argument
+	width: 50%
+
+.slider
+	margin-top: 45px
+	margin-left: 50px
+	height: 482px
+	box-shadow: 0px 50px 30px rgba(0, 0, 0, 0.15)
+
+// online-control
+
+.video-camera, .video
+	display: block
+	margin: 0 auto
+
+.video
+	margin-top: 31px
+	box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.15)
+
+	// video-request
+
+.video-request
+	margin-top: 98px
+
+.text-request
+	width: 697px
+	height: 130px
+	margin: 0 auto
+	line-height: 34px
+	font-size: 20px
+	text-align: center
+
+.form
+	margin-top: 93px
+
+.form-request
+	display: flex
+	justify-content: center
+
+.form-request__name, .form-request__phone
+	height: 50px
+	margin-right: 49px
+	padding-right: 82px
+	display: table
+	border-bottom: 2px solid rgba(54, 54, 54, 0.5)
+
+.help
+	font-size: 15px
+	line-height: 20px
+	color: rgba(54, 54, 54, 0.5)
+	transform: rotate(-0.07deg)
+
+.question
+	font-size: 18px
+	line-height: 24px
+	border: none
+	color: #131313
+
+input
+	&::-webkit-input-placeholder
+		color: #131313
+	&::-moz-placeholder
+		color: #131313
+	&:-ms-input-placeholder
+		color: #131313
+
+
+.form-request__button
+	width: 200px
+	height: 51px
+	text-transform: uppercase
+	font-size: 15px
+	line-height: 26px
+	background-color: #E3B873
+	color: #FFFFFF
+	border: none
+	border-radius: 2px
+
+.request-checkbox
+	margin-top: 33px
+	margin-left: 40%
+
+.check
+	height: 18px
+	width: 18px
+	background: #E3B873
+	color: red
+
+.text-checkbox
+	font-size: 16px
+	line-height: 22px
+
+input, label
+  display: inline-block
+  vertical-align: middle
+
+// types-repairs
+
+.types-repairs
+	margin-top: 148px
+	text-align: center
+
+.types-repairs__headline
+	margin-top: 13px
+	font-size: 20px
+	line-height: 28px
+
+.container-repairs
+	display: flex
+	justify-content: space-around
+	margin-top: 31px
+	text-align: left
+
+.redecorating
+	position: relative
+	width: 85%
+	margin: 0 auto
+	background: #FFFFFF
+	margin-top: -150px
+
+.redecorating__headline
+	padding-top: 20px
+	padding-left: 7%
+	margin-bottom: 13px
+	line-height: 25px
+	font-size: 18px
+
+.redecorating__list
+	margin-top: 13px
+	line-height: 25px
+	font-size: 15px
+
+.redecorating__item
+	color: #959595
+
+.price
+	width: 60%
+	padding: 17px 21px
+	line-height: 25px
+	font-size: 18px
+	text-align: center
+	text-transform: uppercase
+	background: #E3B873
+	color: #FFFFFF
+
+// measurement
+
+.steps
+	float: left
+	width: 50%
+	height: 700px
+	background: url(../img/steps.jpg) no-repeat
+
+.circle
+	margin-top: 50px
+	margin-left: -170px
+	position: absolute
+	width: 640px
+	height: 640px
+	border: 2px solid #E3B873
+	border-radius: 50%
+
+.step-number1
+	position: absolute
+	margin-top: 120px
+	margin-left: 355px
+	width: 460px
+
+.step-number2
+	position: absolute
+	margin-top: 230px
+	margin-left: 428px
+	width: 170px
+
+.step-number3
+	position: absolute
+	margin-top: 390px
+	margin-left: 451px
+	width: 190px
+
+.step-number4
+	position: absolute
+	margin-top: 542px
+	margin-left: 390px
+	width: 260px
+
+.step
+	float: left
+	margin-right: 5px
+	width: 40px
+	height: 32px
+	line-height: 25px
+	font-size: 18px
+	text-align: center
+	padding-top: 8px
+	background: #E3B873
+	color: #FFFFFF
+	border-radius: 50%
+
+.step-description
+	height: 42px
+	line-height: 21px
+	font-size: 18px
+
+.centering
+	padding-top: 6%
+
+.request-measurer
+	float: left
+	margin-top: 90px
+	margin-left: 130px
+	background: #131313
+	color: #FFFFFF
+	width: 509px
+	height: 506px
+
+.request-measurer__headline
+	text-align: center
+	line-height: 25px
+	font-size: 20px
+
+.request-measurer__form
+	width: 80%
+	margin: 0 auto
+	text-align: left
+
+.form__field
+	display: table
+	width: 100%
+	padding-top: 40px
+	height: 50px
+	border-bottom: 2px solid rgba(54, 54, 54, 0.5)
+
+.request-measurer__question
+	border: none
+	line-height: 25px
+	font-size: 18px
+	background: #131313
+	color: #FFFFFF
+	&::-webkit-input-placeholder
+		color: #FFFFFF
+	&::-moz-placeholder
+		color: #FFFFFF
+	&:-ms-input-placeholder
+		color: #FFFFFF
+
+.request-measurer__help
+	line-height: 20px
+	font-size: 15px
+	color: rgba(255, 255, 255, 0.5)
+
+.request-measurer__checkbox
+	margin-top: 12px
+
+.request-measurer__button
+	margin-top: 30px
+	float: right
+	width: 200px
+	height: 51px
+	text-transform: uppercase
+	line-height: 18px
+	font-size: 13px
+	background-color: #E3B873
+	color: #FFFFFF
+	border: none
+
+.saving
+	float: left
+	margin-top: 30px
+	margin-left: 150px
+.pig
+	float: left
+	margin-right: 20px
+
+.saving__text
+	width: 210px
+	float: left
+	margin-top: 10px
+	line-height: 25px
+	font-size: 20px
+	color: #E3B873
+
+
+
+
+
+
 
 @media screen and (max-width: 375px)
 	 .footer, .menu__list, .button
